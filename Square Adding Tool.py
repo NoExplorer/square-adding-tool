@@ -175,7 +175,7 @@ if method == "GenerateNumber_ALL" :
 if selectedMethod2 == "newOne": #Took AGES to implement. Because indents hate me. Enjoy the McClunky implementation.
     required_length = int(input("Please specify amount of Digits ")); 
     required_sum = int(input("Please specify DigitSum "));
-    sp = int(input("How much delay between generations? "))
+    sp =  float(input("How much delay between generations? "))
     p = 0
     while True:
         z = seq_to_int(random_digits_given_sum(required_length, required_sum)); 
